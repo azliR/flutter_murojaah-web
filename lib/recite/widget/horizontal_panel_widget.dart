@@ -4,7 +4,7 @@ import 'package:murojaah_web/recite/cubit/recite_cubit.dart';
 import 'package:murojaah_web/recite/widget/horizontal_panel_tile_widget.dart';
 
 class HorizontalPanel extends StatefulWidget {
-  HorizontalPanel({super.key});
+  const HorizontalPanel({super.key});
 
   @override
   State<HorizontalPanel> createState() => _HorizontalPanelState();

@@ -1,6 +1,6 @@
 name: murojaah_web
 description: A Very Good Project created by Very Good CLI.
-version: 0.1.0+1
+version: 0.1.1+1
 publish_to: none
 
 environment:
@@ -29,10 +29,10 @@ dependencies:
   get_it: ^7.2.0
   google_fonts: ^4.0.3
   injectable: ^2.1.0
+  ionicons: ^0.2.2
   json_annotation: ^4.8.0
   just_audio: ^0.9.31
   loading_animation_widget: ^1.2.0+4
-  material_design_icons_flutter: ^6.0.7096
   pwa_update_listener: ^0.1.0
   record: ^4.4.4
   siri_wave: ^0.3.0

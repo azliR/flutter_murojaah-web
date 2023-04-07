@@ -23,7 +23,7 @@ class RecordButtons extends StatelessWidget {
         actions: [
           OutlinedButton(
             onPressed: () => Navigator.pop(dialogContext),
-            child: Text('Batal'),
+            child: const Text('Batal'),
           ),
           FilledButton(
             autofocus: true,
@@ -68,7 +68,8 @@ class RecordButtons extends StatelessWidget {
             const Spacer(),
             Padding(
               padding: EdgeInsets.symmetric(
-                  horizontal: data.size.width < 600 ? 4 : 8),
+                horizontal: data.size.width < 600 ? 4 : 8,
+              ),
               child: OutlinedButton(
                 style: OutlinedButton.styleFrom(
                   minimumSize:
@@ -89,7 +90,8 @@ class RecordButtons extends StatelessWidget {
             ),
             Padding(
               padding: EdgeInsets.symmetric(
-                  horizontal: data.size.width < 600 ? 4 : 8),
+                horizontal: data.size.width < 600 ? 4 : 8,
+              ),
               child: OutlinedButton(
                 style: OutlinedButton.styleFrom(
                   minimumSize:
@@ -110,7 +112,8 @@ class RecordButtons extends StatelessWidget {
             ),
             Padding(
               padding: EdgeInsets.symmetric(
-                  horizontal: data.size.width < 600 ? 4 : 8),
+                horizontal: data.size.width < 600 ? 4 : 8,
+              ),
               child: BlocSelector<ReciteCubit, ReciteState, bool>(
                 selector: (state) => state.recordings.isNotEmpty,
                 builder: (context, isRecordingsNotEmpty) {

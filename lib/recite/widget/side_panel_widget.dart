@@ -50,9 +50,9 @@ class SidePanel extends StatelessWidget {
                     return SidePanelTile(
                       selected: true,
                       children: [
-                        SizedBox(
+                        const SizedBox(
                           width: 140,
-                          child: const Text('Klik microphone untuk merekam'),
+                          child: Text('Klik microphone untuk merekam'),
                         ),
                         CircleAvatar(
                           backgroundColor: colorScheme.secondary,

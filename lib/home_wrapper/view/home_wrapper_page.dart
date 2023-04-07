@@ -87,8 +87,6 @@ class HomeWrapperPage extends StatelessWidget {
       selector: (state) => state.user != null && !state.user!.isAnonymous,
       builder: (context, isSignedIn) {
         return AutoTabsRouter(
-          duration: const Duration(milliseconds: 300),
-          lazyLoad: true,
           curve: Curves.easeIn,
           routes: [
             const ReciteRoute(),

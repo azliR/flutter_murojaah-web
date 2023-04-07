@@ -72,11 +72,11 @@ class _RecitePageState extends State<RecitePage> {
                 ),
               ),
               if (data.size.width <= 1024)
-                SizedBox(
+                const SizedBox(
                   height: 72,
                   width: double.infinity,
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    padding: EdgeInsets.symmetric(horizontal: 16),
                     child: HorizontalPanel(),
                   ),
                 ),

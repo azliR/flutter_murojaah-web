@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart' hide AuthState;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:ionicons/ionicons.dart';
 import 'package:murojaah_web/auth/cubit/auth_cubit.dart';
 import 'package:murojaah_web/injection.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -67,6 +67,17 @@ Terimakasih atas semuanya. Semoga Allah membalas dengan sesuatu yang lebih baik.
           ),
         ),
         SliverPadding(
+          padding: const EdgeInsets.only(top: 16),
+          sliver: SliverToBoxAdapter(
+            child: Center(
+              child: Text(
+                'Version: 0.1.1',
+                style: textTheme.labelMedium,
+              ),
+            ),
+          ),
+        ),
+        SliverPadding(
           padding: const EdgeInsets.all(8),
           sliver: SliverToBoxAdapter(
             child: Wrap(
@@ -78,9 +89,10 @@ Terimakasih atas semuanya. Semoga Allah membalas dengan sesuatu yang lebih baik.
                   child: ElevatedButton.icon(
                     onPressed: () => launchUrl(
                       Uri.parse(
-                          'https://github.com/azliR/flutter_murojaah-web'),
+                        'https://github.com/azliR/flutter_murojaah-web',
+                      ),
                     ),
-                    icon: const Icon(MdiIcons.github),
+                    icon: const Icon(Ionicons.logo_github),
                     label: const Text('Murojaah-web'),
                   ),
                 ),
@@ -90,7 +102,7 @@ Terimakasih atas semuanya. Semoga Allah membalas dengan sesuatu yang lebih baik.
                     onPressed: () => launchUrl(
                       Uri.parse('https://github.com/azliR/murojaah-ml'),
                     ),
-                    icon: const Icon(MdiIcons.github),
+                    icon: const Icon(Ionicons.logo_github),
                     label: const Text('Murojaah-ml'),
                   ),
                 ),

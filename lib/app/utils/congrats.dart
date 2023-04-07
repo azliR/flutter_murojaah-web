@@ -15,7 +15,8 @@ Future<void> showCongratsDialog(BuildContext context) async {
               maxWidth: 480,
             ),
             child: const Text(
-                'Anda telah berkontribusi dalam pengembangan model murojaah-ml. Semoga Allah SWT memberikan balasan yang lebih baik.',),
+              'Anda telah berkontribusi dalam pengembangan model murojaah-ml. Semoga Allah SWT memberikan balasan yang lebih baik.',
+            ),
           ),
           actions: [
             FilledButton(
