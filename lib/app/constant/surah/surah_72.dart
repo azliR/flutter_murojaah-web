@@ -1,0 +1,173 @@
+// ignore_for_file: lines_longer_than_80_chars
+import 'package:murojaah_web/app/model/ayah.dart';
+
+const surah72 = [
+	Ayah(
+		ayahId: 5448,
+		ayahText: 'قُلْ اُوْحِيَ اِلَيَّ اَنَّهُ اسْتَمَعَ نَفَرٌ مِّنَ الْجِنِّ فَقَالُوْٓا اِنَّا سَمِعْنَا قُرْاٰنًا عَجَبًاۙ',
+		ayahNumber: 1,
+		translationId: "Katakanlah (Muhammad), “Telah diwahyukan kepadaku bahwa sekumpulan jin telah mendengarkan (bacaan),” lalu mereka berkata, “Kami telah mendengarkan bacaan yang menakjubkan (Al-Qur'an),",
+	),
+	Ayah(
+		ayahId: 5449,
+		ayahText: 'يَّهْدِيْٓ اِلَى الرُّشْدِ فَاٰمَنَّا بِهٖۗ وَلَنْ نُّشْرِكَ بِرَبِّنَآ اَحَدًاۖ',
+		ayahNumber: 2,
+		translationId: '(yang) memberi petunjuk kepada jalan yang benar, lalu kami beriman kepadanya. Dan kami sekali-kali tidak akan mempersekutukan sesuatu pun dengan Tuhan kami, ',
+	),
+	Ayah(
+		ayahId: 5450,
+		ayahText: 'وَّاَنَّهٗ تَعٰلٰى جَدُّ رَبِّنَا مَا اتَّخَذَ صَاحِبَةً وَّلَا وَلَدًاۖ',
+		ayahNumber: 3,
+		translationId: 'dan sesungguhnya Mahatinggi keagungan Tuhan kami, Dia tidak beristri dan tidak beranak.”',
+	),
+	Ayah(
+		ayahId: 5451,
+		ayahText: 'وَّاَنَّهٗ كَانَ يَقُوْلُ سَفِيْهُنَا عَلَى اللّٰهِ شَطَطًاۖ',
+		ayahNumber: 4,
+		translationId: 'Dan sesungguhnya orang yang bodoh di antara kami dahulu selalu mengucapkan (perkataan) yang melampaui batas terhadap Allah,',
+	),
+	Ayah(
+		ayahId: 5452,
+		ayahText: 'وَّاَنَّا ظَنَنَّآ اَنْ لَّنْ تَقُوْلَ الْاِنْسُ وَالْجِنُّ عَلَى اللّٰهِ كَذِبًاۙ',
+		ayahNumber: 5,
+		translationId: 'dan sesungguhnya kami mengira, bahwa manusia dan jin itu tidak akan mengatakan perkataan yang dusta terhadap Allah, ',
+	),
+	Ayah(
+		ayahId: 5453,
+		ayahText: 'وَّاَنَّهٗ كَانَ رِجَالٌ مِّنَ الْاِنْسِ يَعُوْذُوْنَ بِرِجَالٍ مِّنَ الْجِنِّ فَزَادُوْهُمْ رَهَقًاۖ',
+		ayahNumber: 6,
+		translationId: 'dan sesungguhnya ada beberapa orang laki-laki dari kalangan manusia yang meminta perlindungan kepada beberapa laki-laki dari jin, tetapi mereka (jin) menjadikan mereka (manusia) bertambah sesat. ',
+	),
+	Ayah(
+		ayahId: 5454,
+		ayahText: 'وَّاَنَّهُمْ ظَنُّوْا كَمَا ظَنَنْتُمْ اَنْ لَّنْ يَّبْعَثَ اللّٰهُ اَحَدًاۖ',
+		ayahNumber: 7,
+		translationId: 'Dan sesungguhnya mereka (jin) mengira seperti kamu (orang musyrik Mekah) yang juga mengira bahwa Allah tidak akan membangkitkan kembali siapa pun (pada hari Kiamat). ',
+	),
+	Ayah(
+		ayahId: 5455,
+		ayahText: 'وَّاَنَّا لَمَسْنَا السَّمَاۤءَ فَوَجَدْنٰهَا مُلِئَتْ حَرَسًا شَدِيْدًا وَّشُهُبًاۖ',
+		ayahNumber: 8,
+		translationId: 'Dan sesungguhnya kami (jin) telah mencoba mengetahui (rahasia) langit, maka kami mendapatinya penuh dengan penjagaan yang kuat dan panah-panah api, ',
+	),
+	Ayah(
+		ayahId: 5456,
+		ayahText: 'وَّاَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَاعِدَ لِلسَّمْعِۗ فَمَنْ يَّسْتَمِعِ الْاٰنَ يَجِدْ لَهٗ شِهَابًا رَّصَدًاۖ',
+		ayahNumber: 9,
+		translationId: 'dan sesungguhnya kami (jin) dahulu dapat menduduki beberapa tempat di langit itu untuk mencuri dengar (berita-beritanya). Tetapi sekarang siapa (mencoba) mencuri dengar (seperti itu) pasti akan menjumpai panah-panah api yang mengintai (untuk membakarnya).',
+	),
+	Ayah(
+		ayahId: 5457,
+		ayahText: 'وَّاَنَّا لَا نَدْرِيْٓ اَشَرٌّ اُرِيْدَ بِمَنْ فِى الْاَرْضِ اَمْ اَرَادَ بِهِمْ رَبُّهُمْ رَشَدًاۙ',
+		ayahNumber: 10,
+		translationId: 'Dan sesungguhnya kami (jin) tidak mengetahui (adanya penjagaan itu) apakah keburukan yang dikehendaki orang yang di bumi ataukah Tuhan mereka menghendaki kebaikan baginya. ',
+	),
+	Ayah(
+		ayahId: 5458,
+		ayahText: 'وَّاَنَّا مِنَّا الصّٰلِحُوْنَ وَمِنَّا دُوْنَ ذٰلِكَۗ  كُنَّا طَرَاۤىِٕقَ قِدَدًاۙ',
+		ayahNumber: 11,
+		translationId: 'Dan sesungguhnya di antara kami (jin) ada yang saleh dan ada (pula) kebalikannya. Kami menempuh jalan yang berbeda-beda. ',
+	),
+	Ayah(
+		ayahId: 5459,
+		ayahText: 'وَّاَنَّا ظَنَنَّآ اَنْ لَّنْ نُّعْجِزَ اللّٰهَ فِى الْاَرْضِ وَلَنْ نُّعْجِزَهٗ هَرَبًاۖ',
+		ayahNumber: 12,
+		translationId: 'Dan sesungguhnya kami (jin) telah menduga, bahwa kami tidak akan mampu melepaskan diri (dari kekuasaan) Allah di bumi dan tidak (pula) dapat lari melepaskan diri (dari)-Nya. ',
+	),
+	Ayah(
+		ayahId: 5460,
+		ayahText: 'وَّاَنَّا لَمَّا سَمِعْنَا الْهُدٰىٓ اٰمَنَّا بِهٖۗ فَمَنْ يُّؤْمِنْۢ بِرَبِّهٖ فَلَا يَخَافُ بَخْسًا وَّلَا رَهَقًاۖ',
+		ayahNumber: 13,
+		translationId: "Dan sesungguhnya ketika kami (jin) mendengar petunjuk (Al-Qur'an), kami beriman kepadanya. Maka barangsiapa beriman kepada Tuhan, maka tidak perlu ia takut rugi atau berdosa. ",
+	),
+	Ayah(
+		ayahId: 5461,
+		ayahText: 'وَّاَنَّا مِنَّا الْمُسْلِمُوْنَ وَمِنَّا الْقَاسِطُوْنَۗ فَمَنْ اَسْلَمَ فَاُولٰۤىِٕكَ تَحَرَّوْا رَشَدًا ',
+		ayahNumber: 14,
+		translationId: 'Dan di antara kami ada yang Islam dan ada yang menyimpang dari kebenaran. Siapa yang Islam, maka mereka itu telah memilih jalan yang lurus. ',
+	),
+	Ayah(
+		ayahId: 5462,
+		ayahText: 'وَاَمَّا الْقَاسِطُوْنَ فَكَانُوْا لِجَهَنَّمَ حَطَبًاۙ',
+		ayahNumber: 15,
+		translationId: 'Dan adapun yang menyimpang dari kebenaran, maka mereka menjadi bahan bakar bagi neraka Jahanam.” ',
+	),
+	Ayah(
+		ayahId: 5463,
+		ayahText: 'وَّاَنْ لَّوِ اسْتَقَامُوْا عَلَى الطَّرِيْقَةِ لَاَسْقَيْنٰهُمْ مَّاۤءً غَدَقًاۙ',
+		ayahNumber: 16,
+		translationId: 'Dan sekiranya mereka tetap berjalan lurus di atas jalan itu (agama Islam), niscaya Kami akan mencurahkan kepada mereka air yang cukup.',
+	),
+	Ayah(
+		ayahId: 5464,
+		ayahText: 'لِّنَفْتِنَهُمْ فِيْهِۗ وَمَنْ يُّعْرِضْ عَنْ ذِكْرِ رَبِّهٖ يَسْلُكْهُ عَذَابًا صَعَدًاۙ',
+		ayahNumber: 17,
+		translationId: 'Dengan (cara) itu Kami hendak menguji mereka. Dan barangsiapa berpaling dari peringatan Tuhannya, niscaya akan dimasukkan-Nya ke dalam azab yang sangat berat. ',
+	),
+	Ayah(
+		ayahId: 5465,
+		ayahText: 'وَّاَنَّ الْمَسٰجِدَ لِلّٰهِ فَلَا تَدْعُوْا مَعَ اللّٰهِ اَحَدًاۖ',
+		ayahNumber: 18,
+		translationId: 'Dan sesungguhnya masjid-masjid itu adalah untuk Allah. Maka janganlah kamu menyembah apa pun di dalamnya selain Allah. ',
+	),
+	Ayah(
+		ayahId: 5466,
+		ayahText: 'وَّاَنَّهٗ لَمَّا قَامَ عَبْدُ اللّٰهِ يَدْعُوْهُ كَادُوْا يَكُوْنُوْنَ عَلَيْهِ لِبَدًاۗ  ࣖ',
+		ayahNumber: 19,
+		translationId: 'Dan sesungguhnya ketika hamba Allah (Muhammad) berdiri menyembah-Nya (melaksanakan salat), mereka (jin-jin) itu berdesakan mengerumuninya.',
+	),
+	Ayah(
+		ayahId: 5467,
+		ayahText: 'قُلْ اِنَّمَآ اَدْعُوْا رَبِّيْ وَلَآ اُشْرِكُ بِهٖٓ اَحَدًا ',
+		ayahNumber: 20,
+		translationId: 'Katakanlah (Muhammad), “Sesungguhnya aku hanya menyembah Tuhanku dan aku tidak mempersekutukan sesuatu pun dengan-Nya.” ',
+	),
+	Ayah(
+		ayahId: 5468,
+		ayahText: 'قُلْ اِنِّيْ لَآ اَمْلِكُ لَكُمْ ضَرًّا وَّلَا رَشَدًا ',
+		ayahNumber: 21,
+		translationId: 'Katakanlah (Muhammad), “Aku tidak kuasa menolak mudarat maupun mendatangkan kebaikan kepadamu.” ',
+	),
+	Ayah(
+		ayahId: 5469,
+		ayahText: 'قُلْ اِنِّيْ لَنْ يُّجِيْرَنِيْ مِنَ اللّٰهِ اَحَدٌ ەۙ وَّلَنْ اَجِدَ مِنْ دُوْنِهٖ مُلْتَحَدًا ۙ',
+		ayahNumber: 22,
+		translationId: 'Katakanlah (Muhammad), “Sesungguhnya tidak ada sesuatu pun yang dapat melindungiku dari (azab) Allah dan aku tidak akan memperoleh tempat berlindung selain dari-Nya. ',
+	),
+	Ayah(
+		ayahId: 5470,
+		ayahText: 'اِلَّا بَلٰغًا مِّنَ اللّٰهِ وَرِسٰلٰتِهٖۗ وَمَنْ يَّعْصِ اللّٰهَ وَرَسُوْلَهٗ فَاِنَّ لَهٗ نَارَ جَهَنَّمَ خٰلِدِيْنَ فِيْهَآ اَبَدًاۗ',
+		ayahNumber: 23,
+		translationId: '(Aku hanya) menyampaikan (peringatan) dari Allah dan risalah-Nya. Dan barangsiapa mendurhakai Allah dan Rasul-Nya maka sesungguhnya dia akan mendapat (azab) neraka Jahanam, mereka kekal di dalamnya selama-lamanya.” ',
+	),
+	Ayah(
+		ayahId: 5471,
+		ayahText: 'حَتّٰىٓ اِذَا رَاَوْا مَا يُوْعَدُوْنَ فَسَيَعْلَمُوْنَ مَنْ اَضْعَفُ نَاصِرًا وَّاَقَلُّ عَدَدًاۗ',
+		ayahNumber: 24,
+		translationId: 'Sehingga apabila mereka melihat (azab) yang diancamkan kepadanya, maka mereka akan mengetahui siapakah yang lebih lemah penolongnya dan lebih sedikit jumlahnya. ',
+	),
+	Ayah(
+		ayahId: 5472,
+		ayahText: 'قُلْ اِنْ اَدْرِيْٓ اَقَرِيْبٌ مَّا تُوْعَدُوْنَ اَمْ يَجْعَلُ لَهٗ رَبِّيْٓ اَمَدًا ',
+		ayahNumber: 25,
+		translationId: 'Katakanlah (Muhammad), “Aku tidak mengetahui, apakah azab yang diancamkan kepadamu itu sudah dekat ataukah Tuhanku menetapkan waktunya masih lama.” ',
+	),
+	Ayah(
+		ayahId: 5473,
+		ayahText: 'عٰلِمُ الْغَيْبِ فَلَا يُظْهِرُ عَلٰى غَيْبِهٖٓ اَحَدًاۙ',
+		ayahNumber: 26,
+		translationId: 'Dia Mengetahui yang gaib, tetapi Dia tidak memperlihatkan kepada siapa pun tentang yang gaib itu. ',
+	),
+	Ayah(
+		ayahId: 5474,
+		ayahText: 'اِلَّا مَنِ ارْتَضٰى مِنْ رَّسُوْلٍ فَاِنَّهٗ يَسْلُكُ مِنْۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهٖ رَصَدًاۙ',
+		ayahNumber: 27,
+		translationId: 'Kecuali kepada rasul yang diridai-Nya, maka sesungguhnya Dia mengadakan penjaga-penjaga (malaikat) di depan dan di belakangnya. ',
+	),
+	Ayah(
+		ayahId: 5475,
+		ayahText: 'لِّيَعْلَمَ اَنْ قَدْ اَبْلَغُوْا رِسٰلٰتِ رَبِّهِمْ وَاَحَاطَ بِمَا لَدَيْهِمْ وَاَحْصٰى كُلَّ شَيْءٍ عَدَدًا ࣖ',
+		ayahNumber: 28,
+		translationId: 'Agar Dia mengetahui bahwa rasul-rasul itu sungguh telah menyampaikan risalah Tuhannya, sedang (ilmu-Nya) meliputi apa yang ada pada mereka, dan Dia menghitung segala sesuatu satu persatu. ',
+	),
+];

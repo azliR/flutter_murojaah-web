@@ -1,0 +1,173 @@
+// ignore_for_file: lines_longer_than_80_chars
+import 'package:murojaah_web/app/model/ayah.dart';
+
+const surah71 = [
+	Ayah(
+		ayahId: 5420,
+		ayahText: 'اِنَّآ اَرْسَلْنَا نُوْحًا اِلٰى قَوْمِهٖٓ اَنْ اَنْذِرْ قَوْمَكَ مِنْ قَبْلِ اَنْ يَّأْتِيَهُمْ عَذَابٌ اَلِيْمٌ ',
+		ayahNumber: 1,
+		translationId: 'Sesungguhnya Kami telah mengutus Nuh kepada kaumnya (dengan perintah), “Berilah kaummu peringatan sebelum datang kepadanya azab yang pedih.” ',
+	),
+	Ayah(
+		ayahId: 5421,
+		ayahText: 'قَالَ يٰقَوْمِ اِنِّيْ لَكُمْ نَذِيْرٌ مُّبِيْنٌۙ',
+		ayahNumber: 2,
+		translationId: 'Dia (Nuh) berkata, “Wahai kaumku! Sesungguhnya aku ini seorang pemberi peringatan yang menjelaskan kepada kamu, ',
+	),
+	Ayah(
+		ayahId: 5422,
+		ayahText: 'اَنِ اعْبُدُوا اللّٰهَ وَاتَّقُوْهُ وَاَطِيْعُوْنِۙ ',
+		ayahNumber: 3,
+		translationId: '(yaitu) sembahlah Allah, bertakwalah kepada-Nya dan taatlah kepadaku, ',
+	),
+	Ayah(
+		ayahId: 5423,
+		ayahText: 'يَغْفِرْ لَكُمْ مِّنْ ذُنُوْبِكُمْ وَيُؤَخِّرْكُمْ اِلٰٓى اَجَلٍ مُّسَمًّىۗ اِنَّ اَجَلَ اللّٰهِ اِذَا جَاۤءَ لَا يُؤَخَّرُۘ لَوْ كُنْتُمْ تَعْلَمُوْنَ ',
+		ayahNumber: 4,
+		translationId: 'niscaya Dia mengampuni sebagian dosa-dosamu dan menangguhkan kamu (memanjangkan umurmu) sampai pada batas waktu yang ditentukan. Sungguh, ketetapan Allah itu apabila telah datang tidak dapat ditunda, seandainya kamu mengetahui.” ',
+	),
+	Ayah(
+		ayahId: 5424,
+		ayahText: 'قَالَ رَبِّ اِنِّيْ دَعَوْتُ قَوْمِيْ لَيْلًا وَّنَهَارًاۙ',
+		ayahNumber: 5,
+		translationId: 'Dia (Nuh) berkata, “Ya Tuhanku, sesungguhnya aku telah menyeru kaumku siang dan malam,',
+	),
+	Ayah(
+		ayahId: 5425,
+		ayahText: 'فَلَمْ يَزِدْهُمْ دُعَاۤءِيْٓ اِلَّا فِرَارًا ',
+		ayahNumber: 6,
+		translationId: 'tetapi seruanku itu tidak menambah (iman) mereka, justru mereka lari (dari kebenaran).',
+	),
+	Ayah(
+		ayahId: 5426,
+		ayahText: 'وَاِنِّيْ كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوْٓا اَصَابِعَهُمْ فِيْٓ اٰذَانِهِمْ وَاسْتَغْشَوْا ثِيَابَهُمْ وَاَصَرُّوْا وَاسْتَكْبَرُوا اسْتِكْبَارًاۚ ',
+		ayahNumber: 7,
+		translationId: 'Dan sesungguhnya aku setiap kali menyeru mereka (untuk beriman) agar Engkau mengampuni mereka, mereka memasukkan anak jarinya ke telinganya dan menutupkan bajunya (ke wajahnya) dan mereka tetap (mengingkari) dan sangat menyombongkan diri.',
+	),
+	Ayah(
+		ayahId: 5427,
+		ayahText: 'ثُمَّ اِنِّيْ دَعَوْتُهُمْ جِهَارًاۙ',
+		ayahNumber: 8,
+		translationId: 'Lalu sesungguhnya aku menyeru mereka dengan cara terang-terangan.',
+	),
+	Ayah(
+		ayahId: 5428,
+		ayahText: 'ثُمَّ اِنِّيْٓ اَعْلَنْتُ لَهُمْ وَاَسْرَرْتُ لَهُمْ اِسْرَارًاۙ',
+		ayahNumber: 9,
+		translationId: 'Kemudian aku menyeru mereka secara terbuka dan dengan diam-diam,',
+	),
+	Ayah(
+		ayahId: 5429,
+		ayahText: 'فَقُلْتُ اسْتَغْفِرُوْا رَبَّكُمْ اِنَّهٗ كَانَ غَفَّارًاۙ',
+		ayahNumber: 10,
+		translationId: 'maka aku berkata (kepada mereka), “Mohonlah ampunan kepada Tuhanmu, Sungguh, Dia Maha Pengampun, ',
+	),
+	Ayah(
+		ayahId: 5430,
+		ayahText: 'يُّرْسِلِ السَّمَاۤءَ عَلَيْكُمْ مِّدْرَارًاۙ',
+		ayahNumber: 11,
+		translationId: 'niscaya Dia akan menurunkan hujan yang lebat dari langit kepadamu, ',
+	),
+	Ayah(
+		ayahId: 5431,
+		ayahText: 'وَّيُمْدِدْكُمْ بِاَمْوَالٍ وَّبَنِيْنَ وَيَجْعَلْ لَّكُمْ جَنّٰتٍ وَّيَجْعَلْ لَّكُمْ اَنْهٰرًاۗ',
+		ayahNumber: 12,
+		translationId: 'dan Dia memperbanyak harta dan anak-anakmu, dan mengadakan kebun-kebun untukmu dan mengadakan sungai-sungai untukmu.” ',
+	),
+	Ayah(
+		ayahId: 5432,
+		ayahText: 'مَا لَكُمْ لَا تَرْجُوْنَ لِلّٰهِ وَقَارًاۚ',
+		ayahNumber: 13,
+		translationId: 'Mengapa kamu tidak takut akan kebesaran Allah? ',
+	),
+	Ayah(
+		ayahId: 5433,
+		ayahText: 'وَقَدْ خَلَقَكُمْ اَطْوَارًا ',
+		ayahNumber: 14,
+		translationId: 'Dan sungguh, Dia telah menciptakan kamu dalam beberapa tingkatan (kejadian). ',
+	),
+	Ayah(
+		ayahId: 5434,
+		ayahText: 'اَلَمْ تَرَوْا كَيْفَ خَلَقَ اللّٰهُ سَبْعَ سَمٰوٰتٍ طِبَاقًاۙ',
+		ayahNumber: 15,
+		translationId: 'Tidakkah kamu memperhatikan bagai-mana Allah telah menciptakan tujuh langit berlapis-lapis?',
+	),
+	Ayah(
+		ayahId: 5435,
+		ayahText: 'وَّجَعَلَ الْقَمَرَ فِيْهِنَّ نُوْرًا وَّجَعَلَ الشَّمْسَ سِرَاجًا ',
+		ayahNumber: 16,
+		translationId: 'Dan di sana Dia menciptakan bulan yang bercahaya dan menjadikan matahari sebagai pelita (yang cemerlang)?',
+	),
+	Ayah(
+		ayahId: 5436,
+		ayahText: 'وَاللّٰهُ اَنْۢبَتَكُمْ مِّنَ الْاَرْضِ نَبَاتًاۙ',
+		ayahNumber: 17,
+		translationId: 'Dan Allah menumbuhkan kamu dari tanah, tumbuh (berangsur-angsur), ',
+	),
+	Ayah(
+		ayahId: 5437,
+		ayahText: 'ثُمَّ يُعِيْدُكُمْ فِيْهَا وَيُخْرِجُكُمْ اِخْرَاجًا ',
+		ayahNumber: 18,
+		translationId: 'kemudian Dia akan mengembalikan kamu ke dalamnya (tanah) dan mengeluarkan kamu (pada hari Kiamat) dengan pasti. ',
+	),
+	Ayah(
+		ayahId: 5438,
+		ayahText: 'وَاللّٰهُ جَعَلَ لَكُمُ الْاَرْضَ بِسَاطًاۙ',
+		ayahNumber: 19,
+		translationId: 'Dan Allah menjadikan bumi untukmu sebagai hamparan, ',
+	),
+	Ayah(
+		ayahId: 5439,
+		ayahText: 'لِّتَسْلُكُوْا مِنْهَا سُبُلًا فِجَاجًا ࣖ ',
+		ayahNumber: 20,
+		translationId: 'agar kamu dapat pergi kian kemari di jalan-jalan yang luas. ',
+	),
+	Ayah(
+		ayahId: 5440,
+		ayahText: 'قَالَ نُوْحٌ رَّبِّ اِنَّهُمْ عَصَوْنِيْ وَاتَّبَعُوْا مَنْ لَّمْ يَزِدْهُ مَالُهٗ وَوَلَدُهٗٓ اِلَّا خَسَارًاۚ ',
+		ayahNumber: 21,
+		translationId: 'Nuh berkata, “Ya Tuhanku, sesungguhnya mereka durhaka kepadaku, dan mereka mengikuti orang-orang yang harta dan anak-anaknya hanya menambah kerugian baginya, ',
+	),
+	Ayah(
+		ayahId: 5441,
+		ayahText: 'وَمَكَرُوْا مَكْرًا كُبَّارًاۚ',
+		ayahNumber: 22,
+		translationId: 'dan mereka melakukan tipu daya yang sangat besar.” ',
+	),
+	Ayah(
+		ayahId: 5442,
+		ayahText: 'وَقَالُوْا لَا تَذَرُنَّ اٰلِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّا وَّلَا سُوَاعًا ەۙ وَّلَا يَغُوْثَ وَيَعُوْقَ وَنَسْرًاۚ',
+		ayahNumber: 23,
+		translationId: 'Dan mereka berkata, “Jangan sekali-kali kamu meninggalkan (penyembahan) tuhan-tuhan kamu dan jangan pula sekali-kali kamu meninggalkan (penyembahan) Wadd, dan jangan pula Suwa‘, Yagus, Ya‘uq dan Nasr.” ',
+	),
+	Ayah(
+		ayahId: 5443,
+		ayahText: 'وَقَدْ اَضَلُّوْا كَثِيْرًا ەۚ وَلَا تَزِدِ الظّٰلِمِيْنَ اِلَّا ضَلٰلًا',
+		ayahNumber: 24,
+		translationId: 'Dan sungguh, mereka telah menyesatkan banyak orang; dan janganlah Engkau tambahkan bagi orang-orang yang zalim itu selain kesesatan. ',
+	),
+	Ayah(
+		ayahId: 5444,
+		ayahText: 'مِمَّا خَطِيْۤـٰٔتِهِمْ اُغْرِقُوْا فَاُدْخِلُوْا نَارًا ەۙ فَلَمْ يَجِدُوْا لَهُمْ مِّنْ دُوْنِ اللّٰهِ اَنْصَارًا',
+		ayahNumber: 25,
+		translationId: 'Disebabkan kesalahan-kesalahan mereka, mereka ditenggelamkan lalu dimasukkan ke neraka, maka mereka tidak mendapat penolong selain Allah.',
+	),
+	Ayah(
+		ayahId: 5445,
+		ayahText: 'وَقَالَ نُوْحٌ رَّبِّ لَا تَذَرْ عَلَى الْاَرْضِ مِنَ الْكٰفِرِيْنَ دَيَّارًا ',
+		ayahNumber: 26,
+		translationId: 'Dan Nuh berkata, “Ya Tuhanku, janganlah Engkau biarkan seorang pun di antara orang-orang kafir itu tinggal di atas bumi.',
+	),
+	Ayah(
+		ayahId: 5446,
+		ayahText: 'اِنَّكَ اِنْ تَذَرْهُمْ يُضِلُّوْا عِبَادَكَ وَلَا يَلِدُوْٓا اِلَّا فَاجِرًا كَفَّارًا ',
+		ayahNumber: 27,
+		translationId: 'Sesungguhnya jika Engkau biarkan mereka tinggal, niscaya mereka akan menyesatkan hamba-hamba-Mu, dan mereka hanya akan melahirkan anak-anak yang jahat dan tidak tahu bersyukur. ',
+	),
+	Ayah(
+		ayahId: 5447,
+		ayahText: 'رَبِّ اغْفِرْ لِيْ وَلِوَالِدَيَّ وَلِمَنْ دَخَلَ بَيْتِيَ مُؤْمِنًا وَّلِلْمُؤْمِنِيْنَ وَالْمُؤْمِنٰتِۗ وَلَا تَزِدِ الظّٰلِمِيْنَ اِلَّا تَبَارًا ࣖ',
+		ayahNumber: 28,
+		translationId: 'Ya Tuhanku, ampunilah aku, ibu bapakku, dan siapa pun yang memasuki rumahku dengan beriman dan semua orang yang beriman laki-laki dan perempuan. Dan janganlah Engkau tambahkan bagi orang-orang yang zalim itu selain kehancuran.”',
+	),
+];

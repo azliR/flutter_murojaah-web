@@ -1,0 +1,161 @@
+// ignore_for_file: lines_longer_than_80_chars
+import 'package:murojaah_web/app/model/ayah.dart';
+
+const surah88 = [
+	Ayah(
+		ayahId: 5968,
+		ayahText: 'هَلْ اَتٰىكَ حَدِيْثُ الْغَاشِيَةِۗ',
+		ayahNumber: 1,
+		translationId: 'Sudahkah sampai kepadamu berita tentang (hari Kiamat)?',
+	),
+	Ayah(
+		ayahId: 5969,
+		ayahText: 'وُجُوْهٌ يَّوْمَىِٕذٍ خَاشِعَةٌ  ۙ',
+		ayahNumber: 2,
+		translationId: 'Pada hari itu banyak wajah yang tertunduk terhina,',
+	),
+	Ayah(
+		ayahId: 5970,
+		ayahText: 'عَامِلَةٌ نَّاصِبَةٌ  ۙ',
+		ayahNumber: 3,
+		translationId: '(karena) bekerja keras lagi kepayahan,',
+	),
+	Ayah(
+		ayahId: 5971,
+		ayahText: 'تَصْلٰى نَارًا حَامِيَةً  ۙ',
+		ayahNumber: 4,
+		translationId: 'mereka memasuki api yang sangat panas (neraka),',
+	),
+	Ayah(
+		ayahId: 5972,
+		ayahText: 'تُسْقٰى مِنْ عَيْنٍ اٰنِيَةٍ ۗ',
+		ayahNumber: 5,
+		translationId: 'diberi minum dari sumber mata air yang sangat panas.',
+	),
+	Ayah(
+		ayahId: 5973,
+		ayahText: 'لَيْسَ لَهُمْ طَعَامٌ اِلَّا مِنْ ضَرِيْعٍۙ',
+		ayahNumber: 6,
+		translationId: 'Tidak ada makanan bagi mereka selain dari pohon yang berduri,',
+	),
+	Ayah(
+		ayahId: 5974,
+		ayahText: 'لَّا يُسْمِنُ وَلَا يُغْنِيْ مِنْ جُوْعٍۗ',
+		ayahNumber: 7,
+		translationId: 'yang tidak menggemukkan dan tidak menghilangkan lapar.',
+	),
+	Ayah(
+		ayahId: 5975,
+		ayahText: 'وُجُوْهٌ يَّوْمَىِٕذٍ نَّاعِمَةٌ  ۙ',
+		ayahNumber: 8,
+		translationId: 'Pada hari itu banyak (pula) wajah yang berseri-seri,',
+	),
+	Ayah(
+		ayahId: 5976,
+		ayahText: 'لِّسَعْيِهَا رَاضِيَةٌ  ۙ ',
+		ayahNumber: 9,
+		translationId: 'merasa senang karena usahanya (sendiri),',
+	),
+	Ayah(
+		ayahId: 5977,
+		ayahText: 'فِيْ جَنَّةٍ عَالِيَةٍۙ',
+		ayahNumber: 10,
+		translationId: '(mereka) dalam surga yang tinggi, ',
+	),
+	Ayah(
+		ayahId: 5978,
+		ayahText: 'لَّا تَسْمَعُ فِيْهَا لَاغِيَةً ۗ',
+		ayahNumber: 11,
+		translationId: 'di sana (kamu) tidak mendengar perkataan yang tidak berguna.',
+	),
+	Ayah(
+		ayahId: 5979,
+		ayahText: 'فِيْهَا عَيْنٌ جَارِيَةٌ  ۘ',
+		ayahNumber: 12,
+		translationId: 'Di sana ada mata air yang mengalir.',
+	),
+	Ayah(
+		ayahId: 5980,
+		ayahText: 'فِيْهَا سُرُرٌ مَّرْفُوْعَةٌ  ۙ',
+		ayahNumber: 13,
+		translationId: 'Di sana ada dipan-dipan yang ditinggikan,',
+	),
+	Ayah(
+		ayahId: 5981,
+		ayahText: 'وَّاَكْوَابٌ مَّوْضُوْعَةٌ  ۙ',
+		ayahNumber: 14,
+		translationId: 'dan gelas-gelas yang tersedia (di dekatnya),',
+	),
+	Ayah(
+		ayahId: 5982,
+		ayahText: 'وَّنَمَارِقُ مَصْفُوْفَةٌ  ۙ ',
+		ayahNumber: 15,
+		translationId: 'dan bantal-bantal sandaran yang tersusun,',
+	),
+	Ayah(
+		ayahId: 5983,
+		ayahText: 'وَّزَرَابِيُّ مَبْثُوْثَةٌ  ۗ',
+		ayahNumber: 16,
+		translationId: 'dan permadani-permadani yang terhampar.',
+	),
+	Ayah(
+		ayahId: 5984,
+		ayahText: 'اَفَلَا يَنْظُرُوْنَ اِلَى الْاِبِلِ كَيْفَ خُلِقَتْۗ',
+		ayahNumber: 17,
+		translationId: 'Maka tidakkah mereka memperhatikan unta, bagaimana diciptakan?',
+	),
+	Ayah(
+		ayahId: 5985,
+		ayahText: 'وَاِلَى السَّمَاۤءِ كَيْفَ رُفِعَتْۗ',
+		ayahNumber: 18,
+		translationId: 'dan langit, bagaimana ditinggikan?',
+	),
+	Ayah(
+		ayahId: 5986,
+		ayahText: 'وَاِلَى الْجِبَالِ كَيْفَ نُصِبَتْۗ',
+		ayahNumber: 19,
+		translationId: 'Dan gunung-gunung bagaimana ditegakkan?',
+	),
+	Ayah(
+		ayahId: 5987,
+		ayahText: 'وَاِلَى الْاَرْضِ كَيْفَ سُطِحَتْۗ ',
+		ayahNumber: 20,
+		translationId: 'Dan bumi bagaimana dihamparkan?',
+	),
+	Ayah(
+		ayahId: 5988,
+		ayahText: 'فَذَكِّرْۗ اِنَّمَآ اَنْتَ مُذَكِّرٌۙ',
+		ayahNumber: 21,
+		translationId: 'Maka berilah peringatan, karena sesungguhnya engkau (Muhammad) hanyalah pemberi peringatan.',
+	),
+	Ayah(
+		ayahId: 5989,
+		ayahText: 'لَّسْتَ عَلَيْهِمْ بِمُصَيْطِرٍۙ',
+		ayahNumber: 22,
+		translationId: 'Engkau bukanlah orang yang berkuasa atas mereka,',
+	),
+	Ayah(
+		ayahId: 5990,
+		ayahText: 'اِلَّا مَنْ تَوَلّٰى وَكَفَرَۙ',
+		ayahNumber: 23,
+		translationId: 'kecuali (jika ada) orang yang berpaling dan kafir,',
+	),
+	Ayah(
+		ayahId: 5991,
+		ayahText: 'فَيُعَذِّبُهُ اللّٰهُ الْعَذَابَ الْاَكْبَرَۗ',
+		ayahNumber: 24,
+		translationId: 'maka Allah akan mengazabnya dengan azab yang besar.',
+	),
+	Ayah(
+		ayahId: 5992,
+		ayahText: 'اِنَّ اِلَيْنَآ اِيَابَهُمْ',
+		ayahNumber: 25,
+		translationId: 'Sungguh, kepada Kamilah mereka kembali,',
+	),
+	Ayah(
+		ayahId: 5993,
+		ayahText: 'ثُمَّ اِنَّ عَلَيْنَا حِسَابَهُمْ ࣖ',
+		ayahNumber: 26,
+		translationId: 'kemudian sesungguhnya (kewajiban) Kamilah membuat perhitungan atas mereka.',
+	),
+];

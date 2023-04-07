@@ -1,0 +1,155 @@
+// ignore_for_file: lines_longer_than_80_chars
+import 'package:murojaah_web/app/model/ayah.dart';
+
+const surah84 = [
+	Ayah(
+		ayahId: 5885,
+		ayahText: 'اِذَا السَّمَاۤءُ انْشَقَّتْۙ ',
+		ayahNumber: 1,
+		translationId: 'Apabila langit terbelah,',
+	),
+	Ayah(
+		ayahId: 5886,
+		ayahText: 'وَاَذِنَتْ لِرَبِّهَا وَحُقَّتْۙ ',
+		ayahNumber: 2,
+		translationId: 'dan patuh kepada Tuhannya, dan sudah semestinya patuh, ',
+	),
+	Ayah(
+		ayahId: 5887,
+		ayahText: 'وَاِذَا الْاَرْضُ مُدَّتْۙ ',
+		ayahNumber: 3,
+		translationId: 'dan apabila bumi diratakan, ',
+	),
+	Ayah(
+		ayahId: 5888,
+		ayahText: 'وَاَلْقَتْ مَا فِيْهَا وَتَخَلَّتْۙ ',
+		ayahNumber: 4,
+		translationId: 'dan memuntahkan apa yang ada di dalamnya dan menjadi kosong,',
+	),
+	Ayah(
+		ayahId: 5889,
+		ayahText: 'وَاَذِنَتْ لِرَبِّهَا وَحُقَّتْۗ ',
+		ayahNumber: 5,
+		translationId: 'dan patuh kepada Tuhannya, dan sudah semestinya patuh.',
+	),
+	Ayah(
+		ayahId: 5890,
+		ayahText: 'يٰٓاَيُّهَا الْاِنْسَانُ اِنَّكَ كَادِحٌ اِلٰى رَبِّكَ كَدْحًا فَمُلٰقِيْهِۚ ',
+		ayahNumber: 6,
+		translationId: 'Wahai manusia! Sesungguhnya kamu telah bekerja keras menuju Tuhanmu, maka kamu akan menemui-Nya.',
+	),
+	Ayah(
+		ayahId: 5891,
+		ayahText: 'فَاَمَّا مَنْ اُوْتِيَ كِتٰبَهٗ بِيَمِيْنِهٖۙ ',
+		ayahNumber: 7,
+		translationId: 'Maka adapun orang yang catatannya diberikan dari sebelah kanannya, ',
+	),
+	Ayah(
+		ayahId: 5892,
+		ayahText: 'فَسَوْفَ يُحَاسَبُ حِسَابًا يَّسِيْرًاۙ ',
+		ayahNumber: 8,
+		translationId: 'maka dia akan diperiksa dengan pemeriksaan yang mudah, ',
+	),
+	Ayah(
+		ayahId: 5893,
+		ayahText: 'وَّيَنْقَلِبُ اِلٰٓى اَهْلِهٖ مَسْرُوْرًاۗ ',
+		ayahNumber: 9,
+		translationId: 'dan dia akan kembali kepada keluarganya (yang sama-sama beriman) dengan gembira.',
+	),
+	Ayah(
+		ayahId: 5894,
+		ayahText: 'وَاَمَّا مَنْ اُوْتِيَ كِتٰبَهٗ وَرَاۤءَ ظَهْرِهٖۙ ',
+		ayahNumber: 10,
+		translationId: 'Dan adapun orang yang catatannya diberikan dari sebelah belakang, ',
+	),
+	Ayah(
+		ayahId: 5895,
+		ayahText: 'فَسَوْفَ يَدْعُوْ ثُبُوْرًاۙ ',
+		ayahNumber: 11,
+		translationId: 'maka dia akan berteriak, “Celakalah aku!” ',
+	),
+	Ayah(
+		ayahId: 5896,
+		ayahText: 'وَّيَصْلٰى سَعِيْرًاۗ ',
+		ayahNumber: 12,
+		translationId: 'Dan dia akan masuk ke dalam api yang menyala-nyala (neraka).',
+	),
+	Ayah(
+		ayahId: 5897,
+		ayahText: 'اِنَّهٗ كَانَ فِيْٓ اَهْلِهٖ مَسْرُوْرًاۗ ',
+		ayahNumber: 13,
+		translationId: 'Sungguh, dia dahulu (di dunia) bergembira di kalangan keluarganya (yang sama-sama kafir). ',
+	),
+	Ayah(
+		ayahId: 5898,
+		ayahText: 'اِنَّهٗ ظَنَّ اَنْ لَّنْ يَّحُوْرَ ۛ ',
+		ayahNumber: 14,
+		translationId: 'Sesungguhnya dia mengira bahwa dia tidak akan kembali (kepada Tuhannya). ',
+	),
+	Ayah(
+		ayahId: 5899,
+		ayahText: 'بَلٰىۛ اِنَّ رَبَّهٗ كَانَ بِهٖ بَصِيْرًاۗ ',
+		ayahNumber: 15,
+		translationId: 'Tidak demikian, sesungguhnya Tuhannya selalu melihatnya. ',
+	),
+	Ayah(
+		ayahId: 5900,
+		ayahText: 'فَلَآ اُقْسِمُ بِالشَّفَقِۙ ',
+		ayahNumber: 16,
+		translationId: 'Maka Aku bersumpah demi cahaya merah pada waktu senja, ',
+	),
+	Ayah(
+		ayahId: 5901,
+		ayahText: 'وَالَّيْلِ وَمَا وَسَقَۙ ',
+		ayahNumber: 17,
+		translationId: 'demi malam dan apa yang diselubunginya,',
+	),
+	Ayah(
+		ayahId: 5902,
+		ayahText: 'وَالْقَمَرِ اِذَا اتَّسَقَۙ ',
+		ayahNumber: 18,
+		translationId: 'demi bulan apabila jadi purnama,',
+	),
+	Ayah(
+		ayahId: 5903,
+		ayahText: 'لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍۗ ',
+		ayahNumber: 19,
+		translationId: 'sungguh, akan kamu jalani tingkat demi tingkat (dalam kehidupan).',
+	),
+	Ayah(
+		ayahId: 5904,
+		ayahText: 'فَمَا لَهُمْ لَا يُؤْمِنُوْنَۙ ',
+		ayahNumber: 20,
+		translationId: 'Maka mengapa mereka tidak mau beriman?',
+	),
+	Ayah(
+		ayahId: 5905,
+		ayahText: 'وَاِذَا قُرِئَ عَلَيْهِمُ الْقُرْاٰنُ لَا يَسْجُدُوْنَ ۗ ۩ ',
+		ayahNumber: 21,
+		translationId: "Dan apabila Al-Qur'an dibacakan kepada mereka, mereka tidak (mau) bersujud,",
+	),
+	Ayah(
+		ayahId: 5906,
+		ayahText: 'بَلِ الَّذِيْنَ كَفَرُوْا يُكَذِّبُوْنَۖ ',
+		ayahNumber: 22,
+		translationId: 'bahkan orang-orang kafir itu mendustakan(nya).',
+	),
+	Ayah(
+		ayahId: 5907,
+		ayahText: 'وَاللّٰهُ اَعْلَمُ بِمَا يُوْعُوْنَۖ ',
+		ayahNumber: 23,
+		translationId: 'Dan Allah lebih mengetahui apa yang mereka sembunyikan (dalam hati mereka).',
+	),
+	Ayah(
+		ayahId: 5908,
+		ayahText: 'فَبَشِّرْهُمْ بِعَذَابٍ اَلِيْمٍۙ ',
+		ayahNumber: 24,
+		translationId: 'Maka sampaikanlah kepada mereka (ancaman) azab yang pedih,',
+	),
+	Ayah(
+		ayahId: 5909,
+		ayahText: 'اِلَّا الَّذِيْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ لَهُمْ اَجْرٌ غَيْرُ مَمْنُوْنٍ ࣖ ',
+		ayahNumber: 25,
+		translationId: 'kecuali orang-orang yang beriman dan mengerjakan kebajikan, mereka akan mendapat pahala yang tidak putus-putusnya.',
+	),
+];
