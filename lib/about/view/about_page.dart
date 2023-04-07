@@ -1,3 +1,5 @@
+import 'dart:js' as js;
+
 import 'package:auto_route/auto_route.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart' hide AuthState;
@@ -6,7 +8,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:murojaah_web/auth/cubit/auth_cubit.dart';
 import 'package:murojaah_web/injection.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 @RoutePage()
 class AboutPage extends StatelessWidget {
@@ -45,19 +46,11 @@ Terimakasih atas semuanya. Semoga Allah membalas dengan sesuatu yang lebih baik.
           ),
         ),
         SliverPadding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          sliver: SliverToBoxAdapter(
-            child: Text(
-              'Daftar data yang dikirimkan:',
-              style: textTheme.titleMedium,
-            ),
-          ),
-        ),
-        SliverPadding(
-          padding: const EdgeInsets.fromLTRB(16, 8, 16, 8),
+          padding: const EdgeInsets.fromLTRB(16, 0, 16, 8),
           sliver: SliverToBoxAdapter(
             child: Text(
               '''
+Daftar data yang dikirimkan:
 1. Nomor Surah
 2. Nomor Ayat
 3. Rekaman suara saat membacakan ayat
@@ -71,7 +64,7 @@ Terimakasih atas semuanya. Semoga Allah membalas dengan sesuatu yang lebih baik.
           sliver: SliverToBoxAdapter(
             child: Center(
               child: Text(
-                'Version: 0.1.1',
+                'Version: 0.1.2',
                 style: textTheme.labelMedium,
               ),
             ),
@@ -87,10 +80,9 @@ Terimakasih atas semuanya. Semoga Allah membalas dengan sesuatu yang lebih baik.
                 Padding(
                   padding: const EdgeInsets.all(8),
                   child: ElevatedButton.icon(
-                    onPressed: () => launchUrl(
-                      Uri.parse(
-                        'https://github.com/azliR/flutter_murojaah-web',
-                      ),
+                    onPressed: () => js.context.callMethod(
+                      'open',
+                      ['https://github.com/azliR/flutter_murojaah-web'],
                     ),
                     icon: const Icon(Ionicons.logo_github),
                     label: const Text('Murojaah-web'),
@@ -99,8 +91,9 @@ Terimakasih atas semuanya. Semoga Allah membalas dengan sesuatu yang lebih baik.
                 Padding(
                   padding: const EdgeInsets.all(8),
                   child: ElevatedButton.icon(
-                    onPressed: () => launchUrl(
-                      Uri.parse('https://github.com/azliR/murojaah-ml'),
+                    onPressed: () => js.context.callMethod(
+                      'open',
+                      ['https://github.com/azliR/murojaah-ml'],
                     ),
                     icon: const Icon(Ionicons.logo_github),
                     label: const Text('Murojaah-ml'),
