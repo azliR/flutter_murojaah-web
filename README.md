@@ -6,6 +6,17 @@
 
 Murojaah Web is a web to collect dataset for Murojaah-ml.
 
+## Pages
+### Recite
+![Screenshot 1](/demo/screenshot-1.png)
+Recite page when user is reciting.
+![Screenshot 2](/demo/screenshot-2.png)
+### Listen
+![Screenshot 3](/demo/screenshot-3.png)
+### About
+![Screenshot 4](/demo/screenshot-4.png)
+
+
 [coverage_badge]: coverage_badge.svg
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
 [internationalization_link]: https://flutter.dev/docs/development/accessibility-and-localization/internationalization
