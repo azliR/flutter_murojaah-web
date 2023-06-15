@@ -87,7 +87,7 @@ class _$DatasetCollectionReference extends _$DatasetQuery
 
   @override
   Future<DatasetDocumentReference> add(Dataset value) {
-    return reference.add(value).then((ref) => DatasetDocumentReference(ref));
+    return reference.add(value).then(DatasetDocumentReference.new);
   }
 
   @override

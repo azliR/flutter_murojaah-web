@@ -8,10 +8,9 @@ import 'package:murojaah_web/recite/model/dataset.dart';
 
 @lazySingleton
 class ListenRepository {
-  ListenRepository(this._firestore, this._audioPlayer);
+  ListenRepository(this._audioPlayer);
 
   final AudioPlayer _audioPlayer;
-  final FirebaseFirestore _firestore;
 
   Stream<PlayerState> get playerStateStream => _audioPlayer.playerStateStream;
 

@@ -5,7 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart' hide AuthState;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ionicons/ionicons.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:murojaah_web/auth/cubit/auth_cubit.dart';
 import 'package:murojaah_web/injection.dart';
 
@@ -19,8 +19,8 @@ class AboutPage extends StatelessWidget {
 
     return CustomScrollView(
       slivers: [
-        SliverAppBar.large(
-          title: const Text('Murojaah-ml'),
+        const SliverAppBar.large(
+          title: Text('Murojaah-ml'),
         ),
         SliverPadding(
           padding: const EdgeInsets.all(16),
@@ -64,7 +64,7 @@ Daftar data yang dikirimkan:
           sliver: SliverToBoxAdapter(
             child: Center(
               child: Text(
-                'Version: 0.1.2',
+                'Version: 0.1.3',
                 style: textTheme.labelMedium,
               ),
             ),
@@ -84,7 +84,7 @@ Daftar data yang dikirimkan:
                       'open',
                       ['https://github.com/azliR/flutter_murojaah-web'],
                     ),
-                    icon: const Icon(Ionicons.logo_github),
+                    icon: Icon(MdiIcons.github),
                     label: const Text('Murojaah-web'),
                   ),
                 ),
@@ -95,7 +95,7 @@ Daftar data yang dikirimkan:
                       'open',
                       ['https://github.com/azliR/murojaah-ml'],
                     ),
-                    icon: const Icon(Ionicons.logo_github),
+                    icon: Icon(MdiIcons.github),
                     label: const Text('Murojaah-ml'),
                   ),
                 ),

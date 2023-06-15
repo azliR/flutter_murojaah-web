@@ -41,28 +41,35 @@ extension GetItInjectableX on _i1.GetIt {
     final firebaseInjectableModule = _$FirebaseInjectableModule();
     gh.lazySingleton<_i3.AudioPlayer>(() => localInjectableModule.audioPlayer);
     gh.lazySingleton<_i4.FirebaseAuth>(
-        () => firebaseInjectableModule.firebaseAuth);
+      () => firebaseInjectableModule.firebaseAuth,
+    );
     gh.lazySingleton<_i5.FirebaseFirestore>(
-        () => firebaseInjectableModule.firestore);
+      () => firebaseInjectableModule.firestore,
+    );
     gh.lazySingleton<_i6.FirebaseStorage>(
-        () => firebaseInjectableModule.firebaseStorage);
-    gh.lazySingleton<_i7.ListenRepository>(() => _i7.ListenRepository(
-          gh<_i5.FirebaseFirestore>(),
-          gh<_i3.AudioPlayer>(),
-        ));
+      () => firebaseInjectableModule.firebaseStorage,
+    );
+    gh.lazySingleton<_i7.ListenRepository>(
+      () => _i7.ListenRepository(gh<_i3.AudioPlayer>()),
+    );
     gh.lazySingleton<_i8.Record>(() => localInjectableModule.record);
     gh.lazySingleton<_i9.AuthRepository>(
-        () => _i9.AuthRepository(gh<_i4.FirebaseAuth>()));
+      () => _i9.AuthRepository(gh<_i4.FirebaseAuth>()),
+    );
     gh.factory<_i10.ListenCubit>(
-        () => _i10.ListenCubit(gh<_i7.ListenRepository>()));
-    gh.lazySingleton<_i11.ReciteRepository>(() => _i11.ReciteRepository(
-          gh<_i6.FirebaseStorage>(),
-          gh<_i8.Record>(),
-          gh<_i3.AudioPlayer>(),
-        ));
+      () => _i10.ListenCubit(gh<_i7.ListenRepository>()),
+    );
+    gh.lazySingleton<_i11.ReciteRepository>(
+      () => _i11.ReciteRepository(
+        gh<_i6.FirebaseStorage>(),
+        gh<_i8.Record>(),
+        gh<_i3.AudioPlayer>(),
+      ),
+    );
     gh.factory<_i12.AuthCubit>(() => _i12.AuthCubit(gh<_i9.AuthRepository>()));
     gh.factory<_i13.ReciteCubit>(
-        () => _i13.ReciteCubit(gh<_i11.ReciteRepository>()));
+      () => _i13.ReciteCubit(gh<_i11.ReciteRepository>()),
+    );
     return this;
   }
 }

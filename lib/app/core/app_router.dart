@@ -1,5 +1,4 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:flutter/widgets.dart';
 import 'package:murojaah_web/about/view/about_page.dart';
 import 'package:murojaah_web/auth/view/sign_in_page.dart';
 import 'package:murojaah_web/home_wrapper/view/home_wrapper_page.dart';
